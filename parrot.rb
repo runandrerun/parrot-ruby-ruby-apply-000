@@ -8,3 +8,8 @@ def parrot(phrase, squawk = "Squawk!")
     puts "#{squawk}"
   end
 end
+
+puts "What to say?"
+say = gets.chomp!
+
+parrot(say)
