@@ -2,7 +2,7 @@
 # returns the phrase
 
 def parrot(phrase, squawk = "Squawk!")
-  if phrase == True 
+  if phrase == String
     puts "#{phrase}"
   else
     puts "#{squawk}"
