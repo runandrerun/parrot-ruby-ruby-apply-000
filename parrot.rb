@@ -9,7 +9,4 @@ def parrot(phrase, squawk = "Squawk!")
   end
 end
 
-puts "What to say?"
-say = gets.chomp!
 
-parrot(say)
