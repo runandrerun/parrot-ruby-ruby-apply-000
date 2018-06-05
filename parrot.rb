@@ -4,6 +4,8 @@
 def parrot(phrase, squawk = "Squawk!")
   if phrase != String
     puts "#{squawk}"
+  elsif parrot 
+    puts "#{squawk}"
   else
     puts "#{phrase}"
   end
